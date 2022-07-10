@@ -6,7 +6,6 @@ import Side from './components/Main/Sections/Side.js';
 
 function App() {
   return (
-    <Router basename = "/">
     <div className="App">
       <header className="App-header"> 
       <Main></Main>
@@ -16,7 +15,6 @@ function App() {
       </body>
       
     </div>
-    </Router>
   );
 }
 
